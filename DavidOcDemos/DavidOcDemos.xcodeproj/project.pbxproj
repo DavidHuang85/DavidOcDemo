@@ -19,6 +19,10 @@
 		A5B2C18F2888DE7800932CF4 /* DavidOcDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C18E2888DE7800932CF4 /* DavidOcDemosTests.m */; };
 		A5B2C1992888DE7800932CF4 /* DavidOcDemosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C1982888DE7800932CF4 /* DavidOcDemosUITests.m */; };
 		A5B2C19B2888DE7800932CF4 /* DavidOcDemosUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C19A2888DE7800932CF4 /* DavidOcDemosUITestsLaunchTests.m */; };
+		A5B2C1B4288A839200932CF4 /* HJLTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C1B3288A839200932CF4 /* HJLTabBarViewController.m */; };
+		A5B2C1B7288A83C500932CF4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C1B6288A83C500932CF4 /* FirstViewController.m */; };
+		A5B2C1BA288A83D400932CF4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C1B9288A83D400932CF4 /* SecondViewController.m */; };
+		A5B2C1BD288A8C2300932CF4 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C1BC288A8C2300932CF4 /* ThirdViewController.m */; };
 		FC547E6270EFB964BC8C6FF7 /* Pods_DavidOcDemos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC27B5669DB1D41407AB937 /* Pods_DavidOcDemos.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +67,14 @@
 		A5B2C1942888DE7800932CF4 /* DavidOcDemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DavidOcDemosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B2C1982888DE7800932CF4 /* DavidOcDemosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DavidOcDemosUITests.m; sourceTree = "<group>"; };
 		A5B2C19A2888DE7800932CF4 /* DavidOcDemosUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DavidOcDemosUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A5B2C1B2288A839200932CF4 /* HJLTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJLTabBarViewController.h; sourceTree = "<group>"; };
+		A5B2C1B3288A839200932CF4 /* HJLTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJLTabBarViewController.m; sourceTree = "<group>"; };
+		A5B2C1B5288A83C500932CF4 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A5B2C1B6288A83C500932CF4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A5B2C1B8288A83D400932CF4 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A5B2C1B9288A83D400932CF4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A5B2C1BB288A8C2300932CF4 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		A5B2C1BC288A8C2300932CF4 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		AE783DEA9A1AF3EB52A406D2 /* Pods-DavidOcDemos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DavidOcDemos.debug.xcconfig"; path = "Target Support Files/Pods-DavidOcDemos/Pods-DavidOcDemos.debug.xcconfig"; sourceTree = "<group>"; };
 		C5E41B5EBD04E751A60F8721 /* Pods_DavidOcDemos_DavidOcDemosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DavidOcDemos_DavidOcDemosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC27B5669DB1D41407AB937 /* Pods_DavidOcDemos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DavidOcDemos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +192,14 @@
 		A5B2C1B1288A7EE800932CF4 /* BaseUI */ = {
 			isa = PBXGroup;
 			children = (
+				A5B2C1B2288A839200932CF4 /* HJLTabBarViewController.h */,
+				A5B2C1B3288A839200932CF4 /* HJLTabBarViewController.m */,
+				A5B2C1B5288A83C500932CF4 /* FirstViewController.h */,
+				A5B2C1B6288A83C500932CF4 /* FirstViewController.m */,
+				A5B2C1B8288A83D400932CF4 /* SecondViewController.h */,
+				A5B2C1B9288A83D400932CF4 /* SecondViewController.m */,
+				A5B2C1BB288A8C2300932CF4 /* ThirdViewController.h */,
+				A5B2C1BC288A8C2300932CF4 /* ThirdViewController.m */,
 			);
 			path = BaseUI;
 			sourceTree = "<group>";
@@ -423,8 +443,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5B2C17A2888DE7600932CF4 /* ViewController.m in Sources */,
+				A5B2C1B7288A83C500932CF4 /* FirstViewController.m in Sources */,
+				A5B2C1BD288A8C2300932CF4 /* ThirdViewController.m in Sources */,
 				A5B2C1742888DE7600932CF4 /* AppDelegate.m in Sources */,
+				A5B2C1BA288A83D400932CF4 /* SecondViewController.m in Sources */,
 				A5B2C1852888DE7800932CF4 /* main.m in Sources */,
+				A5B2C1B4288A839200932CF4 /* HJLTabBarViewController.m in Sources */,
 				A5B2C1772888DE7600932CF4 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

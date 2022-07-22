@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "FirstViewController.h"
 
 @interface ViewController ()
 
@@ -17,8 +18,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
+    self.navigationItem.title = @"testTitle";
 
-    UITabBarController *vc = [[UITabBarController alloc] init];
+    
+
+
+
+
+
+
+
+//    UITabBarController *vc = [[UITabBarController alloc] init];
 }
 
 
