@@ -106,7 +106,6 @@
 				5E12DD3346818A7C19794506 /* Pods-DavidOcDemosTests.debug.xcconfig */,
 				7E6EACD76B9587179ADF7D6A /* Pods-DavidOcDemosTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -145,6 +144,7 @@
 		A5B2C1712888DE7600932CF4 /* DavidOcDemos */ = {
 			isa = PBXGroup;
 			children = (
+				A5B2C1B1288A7EE800932CF4 /* BaseUI */,
 				A5B2C1722888DE7600932CF4 /* AppDelegate.h */,
 				A5B2C1732888DE7600932CF4 /* AppDelegate.m */,
 				A5B2C1752888DE7600932CF4 /* SceneDelegate.h */,
@@ -175,6 +175,13 @@
 				A5B2C19A2888DE7800932CF4 /* DavidOcDemosUITestsLaunchTests.m */,
 			);
 			path = DavidOcDemosUITests;
+			sourceTree = "<group>";
+		};
+		A5B2C1B1288A7EE800932CF4 /* BaseUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -597,21 +604,22 @@
 				DEVELOPMENT_TEAM = Q9LEJ68V92;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DavidOcDemos/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = AllOCDemo;
+				INFOPLIST_KEY_CFBundleDisplayName = OCDemo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = huangjinlong.DavidOcDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -626,21 +634,22 @@
 				DEVELOPMENT_TEAM = Q9LEJ68V92;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DavidOcDemos/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = AllOCDemo;
+				INFOPLIST_KEY_CFBundleDisplayName = OCDemo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = huangjinlong.DavidOcDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
