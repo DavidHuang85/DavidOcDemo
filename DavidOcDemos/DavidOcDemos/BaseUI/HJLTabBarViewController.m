@@ -30,17 +30,13 @@
     c2.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:1];
     UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:c2];
 
-
     ThirdViewController *c3 = ThirdViewController.new;
     c3.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:3];
     UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:c3];
     NSArray *arrC = @[nav1,nav2,nav3];
     self.viewControllers = arrC;
 
-//    self.selectedViewController = nav1;
     self.selectedIndex = 0;
     self.tabBar.backgroundColor = UIColor.whiteColor;
-
-
 }
 @end
