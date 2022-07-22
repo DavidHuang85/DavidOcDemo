@@ -1,26 +1,23 @@
 //
-//  FirstViewController.m
+//  SecondViewController.m
 //  DavidOcDemos
 //
 //  Created by davidhuang on 2022/7/22.
 //
 
-#import "FirstViewController.h"
+#import "SecondViewController.h"
 
-@interface FirstViewController ()
+@interface SecondViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation SecondViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    self.view.backgroundColor = UIColor.redColor;
-    self.navigationItem.title = @"First";
-
-
-
+//    self.view.backgroundColor = UIColor.greenColor;
+    self.navigationItem.title = @"OC-UI";
 }
 
 /*

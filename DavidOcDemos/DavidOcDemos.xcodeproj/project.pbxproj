@@ -192,16 +192,40 @@
 		A5B2C1B1288A7EE800932CF4 /* BaseUI */ = {
 			isa = PBXGroup;
 			children = (
+				A5B2C1BE288A96E300932CF4 /* First */,
+				A5B2C1BF288A96FF00932CF4 /* Second */,
+				A5B2C1C0288A971300932CF4 /* Third */,
 				A5B2C1B2288A839200932CF4 /* HJLTabBarViewController.h */,
 				A5B2C1B3288A839200932CF4 /* HJLTabBarViewController.m */,
+			);
+			path = BaseUI;
+			sourceTree = "<group>";
+		};
+		A5B2C1BE288A96E300932CF4 /* First */ = {
+			isa = PBXGroup;
+			children = (
 				A5B2C1B5288A83C500932CF4 /* FirstViewController.h */,
 				A5B2C1B6288A83C500932CF4 /* FirstViewController.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		A5B2C1BF288A96FF00932CF4 /* Second */ = {
+			isa = PBXGroup;
+			children = (
 				A5B2C1B8288A83D400932CF4 /* SecondViewController.h */,
 				A5B2C1B9288A83D400932CF4 /* SecondViewController.m */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		A5B2C1C0288A971300932CF4 /* Third */ = {
+			isa = PBXGroup;
+			children = (
 				A5B2C1BB288A8C2300932CF4 /* ThirdViewController.h */,
 				A5B2C1BC288A8C2300932CF4 /* ThirdViewController.m */,
 			);
-			path = BaseUI;
+			path = Third;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -556,7 +580,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -609,7 +633,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -625,7 +649,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q9LEJ68V92;
+				DEVELOPMENT_TEAM = 9934CD68ND;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DavidOcDemos/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OCDemo;
@@ -640,7 +664,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = huangjinlong.DavidOcDemos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ps.recycling2c;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -655,7 +679,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q9LEJ68V92;
+				DEVELOPMENT_TEAM = 9934CD68ND;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DavidOcDemos/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OCDemo;
@@ -670,7 +694,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = huangjinlong.DavidOcDemos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ps.recycling2c;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 1;

@@ -24,6 +24,10 @@
 
     FirstViewController *c1 = FirstViewController.new;
     c1.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:0];
+    c1.tabBarItem.title = @"语法相关";
+    c1.tabBarItem.badgeValue = @"99+";
+    c1.tabBarItem.badgeColor = UIColor.redColor;
+    
     UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:c1];
 
     SecondViewController *c2 = SecondViewController.new;
@@ -31,7 +35,7 @@
     UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:c2];
 
     ThirdViewController *c3 = ThirdViewController.new;
-    c3.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemBookmarks tag:3];
+    c3.tabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemHistory tag:3];
     UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:c3];
     NSArray *arrC = @[nav1,nav2,nav3];
     self.viewControllers = arrC;
